@@ -4,17 +4,179 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <title>Marco Noria</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     html body {
       margin: 0;
       padding: 0;
       background: #333;
       color: #fff;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 35px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+
+    .container {
+      width: 900px;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+
+    p {
+      white-space: pre-line;
+    }
+
+    a {
+      color: #fff;
+    }
+
+    a:hover {
+      color: #bbb;
+    }
+
+    .job-title {
+      color: #bbb;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        width: 100%;
+        padding: 0 25px;
+      }
     }
   </style>
 </head>
 <body>
+<section class="container">
+  <hr/>
   <h1>Marco Noria</h1>
+  <hr/>
+
+  <div>
+    <p class="center">Mexico, CDMX
+      <a href="mailto:noria.marco@gmail.com">noria.marco@gmail.com</a>
+    </p>
+  </div>
+
+  <p>Software developer focused on web technologies with more than ten years of experience creating solutions for project management, ecommerce, marketing and entertainment. My diverse skill set includes back-end development of RestAPIs to manage and query information built in NodeJS and implementing SQL and NoSQL databases. In front-end building tools and components for browsers, desktop applications and mobile devices using libraries such as React, VueJS and React Native.</p>
+
+  <h2>EXPERIENCE</h2>
+
+  <div>
+    <p><span class="job-title">LANZAMIENTO TELCEL 5G - COCOLAB | 2021</span>
+    Mobile Developer / React Native, Viro
+    Development of a mobile application to interact with the advertising for the launching of the 5G network in Mexico.
+    Full Stack / NestJS, React
+    Development of a system to book appointments for the interactive installation.</p>
+  </div>
+
+  <div>
+    <p><span class="job-title">FRIDA INMERSIVA - COCOLAB | 2021</span>
+    Mobile Developer / React Native
+    Development of a mobile application for the interactive museum Frida Inmersiva.
+    Full Stack / Laravel, VueJS
+    Website development</p>
+  </div>
+
+  <div>
+    <p><span class="job-title">LOOP PLAN - COCOLAB | 2016 - 2020</span>
+    Tech Leader and Web Developer / NodeJS, Mongo DB, React, Redux
+    Web application development to manage people, projects and personal tasks, and and internal chat.
+    Mobile Developer / React Native
+    Mobile application development to manage tasks</p>
+  </div>
+
+  <div>
+    <p><span class="job-title">OAXACA DE NOCHE - COCOLAB | 2018</span>
+    Web Developer / NodeJS, VueJS
+    Web App development to interact with an artistic installation from a mobile phone.</p>
+  </div>
+
+  <div>
+    <p><span class="job-title">CORONA CAPITAL - COCOLAB  | 2016</span>
+  Web Developer / NodeJS, Mongo Db, React
+  Development of a web system for content management and web page.</p>
+  </div>
+
+  <div>
+    <p><span class="job-title">NUPPI - PAPALOTE | 2015</span>
+  Web Developer / NodeJS, Raspberry Pi | 2015
+  Development of a video player managed through a web interface that allowed updating the content and programming playlists.</p>
+  </div>
+
+
+  <div>
+    <p><span class="job-title">SITIO WEB AND CMS - ALTERED AGENCY | 2014</span>
+  Web Developer / NodeJS, Mongo DB, Angular
+  Development of a management system to unify content from different web pages.</p>
+  </div>
+
+  <div>
+    <p><span class="job-title">SITIO WEB AND CMS - TEN ARQUITECTOS | 2013</span>
+  Web Developer / Laravel, Angular, PostgreSQL
+  Development and maintenance of a system to manage and document architectural projects.</p>
+  </div>
+
+  <div>
+    <p><span class="job-title">INPUT = OUTPUT - PROYECTO PERSONAL | 2013</span>
+  Software Developer / Objective C, C++
+  Development of an OSX application to generate visualizations created from the data obtained from the reading of a neuronal sensor.</p>
+  </div>
+
+  <div>
+    <p><span class="job-title">MESSAGING SISTEM - CENEVAL  | 2008 - 2011</span>
+  Web Developer / Java
+  Part of the team to develop a system for the management and issuance of test scores at the national level.</p>
+  </div>
+
+  <h2>EDUCATION</h2>
+  <p>DEGREE IN PSYCHOLOGY - UNAM</p>
+
+  <h2>SKILLS AND TOOLS</h2>
+  <div>
+    <p><span class="job-title">Back end skills</span>
+  NodeJS / Phyton / Java /  PHP / C++ / Objective C / Shell Script
+  Express / NestJS / FeathersJS
+  Nginx / Apache / Docker /
+  GraphQl / APIRest
+  MySQL / MariaDB / Oracle / PostgreSQL / MongoDB / SQLite
+  Linux / OSX / Windows</p>
+</div>
+
+  <div>
+    <p><span class="job-title">Front end skills</span>
+  Storage / Web Sockets / Service Workers
+  React / VueJS / Javascript (ES6) / TypeScript / Redux / React Native / Next.js
+  Sass / TailwindCSS / Webpack / ParcelJS</p>
+  </div>
+
+  <div>
+    <p><span class="job-title">Agile methodologies</span>
+  Scrum / Kanban</p>
+  </div>
+
+  <h2>LANGUAGES</h2>
+  Spanish - Nativo
+  English - B2
+</section>
 </body>
 </html>
